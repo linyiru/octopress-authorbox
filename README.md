@@ -84,3 +84,11 @@ author: deduce
 
 * More easier setting of this plugin
 * **More posts of this author** link and its generator
+
+# Author
+
+Lawrence Yi-Ru Lin, a.k.a [@deduce](http://twitter.com/deduce)
+
+# License
+
+Licensed under the MIT: www.opensource.org/licenses/mit-license.php
