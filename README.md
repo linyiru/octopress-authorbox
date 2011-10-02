@@ -4,6 +4,11 @@ Author Box is a simple Octopress plugin that could display more author informati
 
 You can configure your authors information if there are multiple authors.
 
+# Feature
+
+* Easily attach author info box with YAML.
+* Use Gravatar image url as a author pic.
+
 # Usage
 
 1. Put the plugin file: ```author_box.rb``` into ```plugins``` folder.
