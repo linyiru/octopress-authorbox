@@ -1,0 +1,35 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+.octopress-authorbox {
+	border-top: 4px solid #333;
+	background-color: #eee;
+
+	.author-pic {
+		float: left;
+		margin: 8px;
+	}
+	
+	.author-about {
+		float: left;
+		margin: 5px;
+		padding: 5px;
+		ul {
+			list-style: none;
+			
+			li {
+				display: inline;
+				margin-left: 5px;
+			}
+		}
+	
+	}
+}
+
+.octopress-authorbox:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
