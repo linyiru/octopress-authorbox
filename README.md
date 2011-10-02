@@ -12,13 +12,24 @@ You can configure your authors information if there are multiple authors.
 * Edit ```_style.scss``` to adjust the style of author box.
 * Add or change the ```author: Your Name``` to the metadata on a post. The author name should be exactly matched to one of authors with author.yml.
 
-# Example for Post
+# Example for author.yml
+
+```
+deduce:
+    name: Lawrence Lin
+    twitter: deduce
+    email: deduce@gmail.com
+    blog: http://www.inside.com.tw/
+    description: "Founder of Inside.com.tw"
+```
+
+# Example for a post
 
 
 ```
 ---
 layout: post
-title: "使用 Octopress 作為開發者專屬部落格"
+title: "Octopress"
 date: 2011-09-30 13:48
 comments: true
 categories: [octopress]
