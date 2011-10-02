@@ -82,7 +82,7 @@ author: deduce
 
 # TODO
 
-* More easier setting of this plugin
+* More easier setting of this plugin(maybe it would be a install script & git submodule as a octopress plugin) 
 * **More posts of this author** link and its generator
 
 # Author
