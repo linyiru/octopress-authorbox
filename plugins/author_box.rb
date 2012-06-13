@@ -6,6 +6,16 @@ module Jekyll
     def post_render(post)
       if post.is_post?
         authors = YAML::load(File.open(File.expand_path('../../author.yml', __FILE__)))
+
+        if !post.data.key? 'author'
+          raise "No author specified in post '#{post.data['title']}'"
+        end
+
+        authorName = post.data['author']
+        if !authors.key? authorName
+          raise "Could not find author data for '#{authorName}' in post '#{post.data['title']}'"
+        end
+
         author = authors[post.data["author"]]
         post.content << render_content(author)
       end
