@@ -13,7 +13,7 @@ You can configure your authors information if there are multiple authors.
 
 1. Put the plugin file: ```author_box.rb``` into ```plugins``` folder.
 * Put ```author.yml``` into your Octopress root path and add your author's information.
-* Put ```author.html``` for rendering author box below your posts
+* Put ```author.html``` into ```source/_layouts``` for rendering author box below your posts
 * Edit ```_style.scss``` to adjust the style of author box.
 * Add or change the ```author: Your Name``` to the metadata on a post. The author name should be exactly matched to one of authors with author.yml.
 
