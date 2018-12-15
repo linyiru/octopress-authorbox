@@ -87,7 +87,7 @@ author: deduce
 
 # Author
 
-Lawrence Yi-Ru Lin, [@linyiru](http://twitter.com/linyiru)
+* Lawrence Yi-Ru Lin, [@linyiru](http://twitter.com/linyiru)
 
 # License
 
