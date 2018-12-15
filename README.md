@@ -19,19 +19,19 @@ You can configure your authors information if there are multiple authors.
 
 # Example for author.yml
 
-```
-deduce:
+```yaml
+linyiru:
     name: Lawrence Lin
-    twitter: deduce
-    email: deduce@gmail.com
-    blog: http://www.inside.com.tw/
-    description: "Founder of Inside.com.tw"
+    twitter: linyiru
+    email: hi@linyiru.com
+    blog: https://blog.linyiru.com/
+    description: "Hello World!"
 ```
 
 # Example for a post
 
 
-```
+```markdown
 ---
 layout: post
 title: "Octopress"
@@ -45,7 +45,7 @@ author: deduce
 
 # Example Stylesheets(in SCSS format)
 
-```
+```scss
 .octopress-authorbox {
 	border-top: 4px solid #333;
 	background-color: #eee;
@@ -87,7 +87,7 @@ author: deduce
 
 # Author
 
-Lawrence Yi-Ru Lin, a.k.a [@deduce](http://twitter.com/deduce)
+Lawrence Yi-Ru Lin, [@linyiru](http://twitter.com/linyiru)
 
 # License
 
