@@ -54,20 +54,20 @@ author: deduce
 		float: left;
 		margin: 8px;
 	}
-	
+
 	.author-about {
 		float: left;
 		margin: 5px;
 		padding: 5px;
 		ul {
 			list-style: none;
-			
+
 			li {
 				display: inline;
 				margin-left: 5px;
 			}
 		}
-	
+
 	}
 }
 
