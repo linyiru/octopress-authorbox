@@ -47,28 +47,29 @@ author: deduce
 
 ```scss
 .octopress-authorbox {
-	border-top: 4px solid #333;
-	background-color: #eee;
+    border-top: 4px solid #333;
+    background-color: #eee;
 
-	.author-pic {
-		float: left;
-		margin: 8px;
-	}
+    .author-pic {
+        float: left;
+        margin: 8px;
+    }
 
-	.author-about {
-		float: left;
-		margin: 5px;
-		padding: 5px;
-		ul {
-			list-style: none;
+    .author-about {
+        float: left;
+        margin: 5px;
+        padding: 5px;
 
-			li {
-				display: inline;
-				margin-left: 5px;
-			}
-		}
+        ul {
+            list-style: none;
 
-	}
+            li {
+                display: inline;
+                margin-left: 5px;
+            }
+        }
+
+    }
 }
 
 .octopress-authorbox:after {
